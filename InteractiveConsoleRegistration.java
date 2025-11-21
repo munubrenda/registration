@@ -108,7 +108,7 @@ public class InteractiveConsoleRegistration {
 
         System.out.printf("%-5s %-15s %-10s %-12s %-15s %-20s\n",
                 "ID", "Name", "Gender", "DOB", "Mobile", "Address");
-        System.out.println("--------------------------------------------------------------------------");
+        System.out.println("----");
 
         for (User u : database) {
             System.out.printf("%-5d %-15s %-10s %-12s %-15s %-20s\n",
